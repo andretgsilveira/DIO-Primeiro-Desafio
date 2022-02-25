@@ -19,7 +19,6 @@ public class AreaDireita {
                 if (i < j && i >= M.length-j) soma += M[i][j];
             }
         }
-
         if (O == 'M') {
             soma /= 30;
         }
